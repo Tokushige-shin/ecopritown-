@@ -190,3 +190,13 @@ function remove_menus()
 	remove_menu_page('edit.php'); // 投稿を非表示
 }
 add_action('admin_menu', 'remove_menus');
+
+// mw-wp-form 送信完了後に完了ページへ遷移
+    function my_mwform_after_send( $Data ) {
+  if ( $Data->get_form_key() === 'mw-wp-form-15' ) {
+	  $id = $Data->get( 'id' ); $url = get_permalink($id);
+		wp_redirect($url.'?thanks');
+	  exit;
+  }
+}
+add_action( 'mwform_after_send_mw-wp-form-15', 'my_mwform_after_send' );
