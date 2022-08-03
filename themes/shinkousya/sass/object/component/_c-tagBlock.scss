@@ -1,0 +1,31 @@
+.c-tagBlock-items {
+    margin-top: rem(29);
+}
+
+.c-tagBlock-item:nth-child(n+2) {
+    margin-top: rem(17);
+}
+
+.c-tagBlock-textBox {
+    display: flex;
+    font-size: rem(14);
+    border-bottom: rem(1) solid #9A9B9B;
+    padding-bottom: rem(19);
+
+    @include mq("sp") {
+        font-size: rem(13);
+    }
+}
+
+.c-tagBlock-tag {
+    border: rem(1) solid $black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.c-tagBlock-text span {
+    color: #0791BC;
+}

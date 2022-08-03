@@ -1,0 +1,50 @@
+.c-block--leyout {
+    padding-top: rem(50);
+    padding-bottom: rem(54);
+
+    @include mq("sp") {
+        padding-top: rem(20);
+    }
+}
+
+.c-block-top--leyout {
+    padding-top: rem(50);
+
+    @include mq("sp") {
+        padding-top: rem(20);
+    }
+}
+
+.c-blockText__text {
+    font-size: rem(14);
+    font-weight: $medium;
+}
+
+.c-block-contents {
+    margin-top: rem(57);
+
+    @include mq("sp") {
+        margin-top: rem(49);
+    }
+}
+
+.c-block-content {
+    margin-top: rem(54);
+
+    @include mq("sp") {
+        margin-top: rem(50);
+    }
+}
+
+.c-block-contents .c-block-content:first-child {
+    margin-top: rem(0);
+}
+
+.c-blockPicture__text {
+    margin-top: rem(19);
+    font-size: rem(14);
+
+    @include mq("sp") {
+        margin-top: rem(18);
+    }
+}

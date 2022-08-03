@@ -1,0 +1,97 @@
+.c-underTitle__box {
+    max-width: rem(800);
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: rem(87);
+
+    @include mq("sp") {
+        max-width: rem(550);
+        padding-left: $padding-sp;
+        padding-right: $padding-sp;
+    }
+}
+
+.c-underTitle__subText {
+    font-size: rem(23);
+    font-weight: $sb;
+    font-family: $font-family-second;
+
+    @include mq("sp") {
+        font-size: rem(17);
+        padding-left: rem(32);
+        padding-right: rem(32);
+    }
+}
+
+.c-underTitle__title {
+    font-size: rem(54);
+    font-family: $font-family-third;
+    color: $blue;
+    font-weight: $regular;
+
+    @include mq("sp") {
+        font-size: rem(28);
+    }
+}
+
+.c-underTitle__title--green {
+    color: $green;
+    font-size: rem(38);
+    font-weight: $regular;
+
+    @include mq("sp") {
+        font-size: rem(18);
+    }
+}
+
+.c-underTitle__heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $blue;
+    font-size: rem(28);
+    font-weight: $bold;
+
+    @include mq("sp") {
+        font-size: rem(19);
+    }
+}
+
+.c-underTitle__heading--leyout {
+    margin-top: rem(36.5);
+
+    @include mq("sp") {
+        margin-top: rem(22);
+    }
+}
+
+.c-underTitle__heading--fontExtra {
+    font-family: $font-family-force;
+}
+
+.c-underTitle__heading:before,
+.c-underTitle__heading:after {
+    content: "";
+    flex-grow: 1;
+    height: rem(1);
+    display: block;
+}
+
+.c-underTitle__heading:before {
+    margin-right: rem(30);
+    background: $blue;
+
+    @include mq("sp") {
+        margin-right: rem(24);
+    }
+}
+
+.c-underTitle__heading:after {
+    margin-left: rem(30);
+    background: $blue;
+
+    @include mq("sp") {
+        margin-left: rem(24);
+    }
+}

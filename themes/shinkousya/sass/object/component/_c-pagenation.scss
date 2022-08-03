@@ -1,0 +1,48 @@
+// ページネーションプロパティ
+
+.c-pagenation__topics {
+    margin-top: rem(69);
+    text-align: center;
+
+    @include mq("sp") {
+        padding-left: rem(10);
+        padding-right: rem(10);
+        margin-bottom: rem(54);
+    }
+}
+
+.page-numbers {
+    padding: rem(2.9) rem(9.7);
+    border: rem(1) solid $black;
+
+    @include mq("sp") {
+        font-size: rem(14);
+        padding: rem(3) rem(10);
+    }
+}
+
+.page-numbers:hover {
+    background-color: $white;
+    color: $black;
+}
+
+.prev {
+    border: none;
+    font-size: rem(14);
+}
+
+.next {
+    border: none;
+    font-size: rem(14);
+}
+
+.prev:hover,
+.next:hover {
+    background-color: transparent;
+    opacity: .6;
+}
+
+.nav-links .current {
+    background-color: $white;
+    color: $black;
+}

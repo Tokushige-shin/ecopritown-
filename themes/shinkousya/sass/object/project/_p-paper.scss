@@ -1,0 +1,18 @@
+.p-paper__titlePicture {
+    max-width: rem(600);
+    width: 100%;
+    margin: auto;
+    padding-top: rem(36);
+
+    @include mq("sp") {
+
+    }
+}
+
+.p-paper__titleHeading--leyout {
+    margin-top: rem(64);
+
+    @include mq("sp") {
+        margin-top: rem(36);
+    }
+}

@@ -1,0 +1,150 @@
+.c-card__items {
+    margin: 0 auto;
+    max-width: 70rem;
+    width: 100%;
+}
+
+.c-card__items--leyout {
+    padding-top: rem(32);
+}
+
+.c-card-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    @include mq(sp) {
+        display: block;
+    }
+}
+
+.c-card-list__item {
+    max-width: calc(33.33333% - #{rem(30)} * 2 / 3);
+    width: 100%;
+
+    @include mq(sp) {
+        max-width: none;
+        margin-top: rem(43);
+    }
+}
+
+.c-card-list__item:first-child {
+    @include mq(sp) {
+        margin-top: rem(0);
+    }
+}
+
+.c-card-list__item+.c-card-list__item {
+    margin-left: rem(30);
+
+    @include mq(sp) {
+        margin-left: rem(0);
+    }
+}
+
+.c-card-list__item:nth-of-type(3n+1) {
+    margin-left: 0;
+}
+
+.c-card-list__item:nth-of-type(n+4) {
+    margin-top: rem(30);
+}
+
+.c-card-item01,
+.c-card-item02,
+.c-card-item03 {
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+}
+
+.js-fadeーanima {
+    animation-name: fadeInAnime;
+    animation-duration: 0.2s;
+    animation-fill-mode: both;
+    opacity: 0;
+}
+
+.c-card-item .is-show {
+    display: none;
+}
+
+@keyframes fadeInAnime {
+    0% {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.c-card-item--leyout {
+    margin-top: rem(30);
+}
+
+
+.c-card-item__img {
+    max-width: 22rem;
+    width: 100%;
+    position: relative;
+
+    @include mq(sp) {
+        max-width: none;
+    }
+}
+
+.c-card-item__img::before {
+    content: "";
+    display: block;
+    padding-top: 66%;
+}
+
+.c-card-item__img img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.c-card-item__content {
+    margin-top: rem(12);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.c-card-item__title {
+    margin-bottom: rem(15);
+    font-size: rem(17);
+    font-weight: $bold;
+    line-height: 1.75;
+}
+
+.c-card-item__text {
+    margin-bottom: rem(18);
+    font-size: rem(14);
+    line-height: 1.75;
+}
+
+.c-card-item__info {
+    margin-top: auto;
+    padding: 0 1.5rem 0.625rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.c-card-item__noneText {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: rem(16);
+    font-weight: $medium;
+    text-align: center;
+}

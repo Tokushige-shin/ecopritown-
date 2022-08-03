@@ -1,0 +1,373 @@
+.c-ctnForm--sub {
+    background-color: $white;
+}
+
+// template-contactTitle CSSプロパティ記載
+
+.c-ctnForm__innerSecond {
+    max-width: rem(700);
+    width: 100%;
+    margin: auto;
+    padding-top: rem(43);
+    padding-bottom: rem(47);
+
+    @include mq("sp") {
+        max-width: rem(560);
+        padding-left: $padding-sp;
+        padding-right: $padding-sp;
+    }
+}
+
+.c-ctnForm__title {
+    font-size: rem(44);
+    font-family: $font-family-six;
+    font-weight: 300;
+    color: $blue;
+    text-align: center;
+
+    @include mq("sp") {
+        font-size: rem(40);
+    }
+}
+
+.c-ctnForm__subText {
+    text-align: center;
+    font-size: rem(14);
+    line-height: 1.64;
+    padding-top: rem(18);
+    padding-bottom: rem(21.5);
+
+    @include mq("sp") {
+        padding-top: rem(24);
+        padding-bottom: rem(32.5);
+    }
+}
+
+.c-ctnForm__inner {
+    max-width: rem(700);
+    width: 100%;
+    margin: auto;
+    padding-top: rem(33);
+    padding-bottom: rem(47);
+
+    @include mq("sp") {
+        max-width: rem(560);
+        padding-left: $padding-sp;
+        padding-right: $padding-sp;
+    }
+}
+
+.c-ctnForm__list {
+    display: flex;
+    align-items: center;
+    border-bottom: rem(1) solid $blue;
+    padding-bottom: rem(4);
+
+    @include mq("sp") {
+        justify-content: center;
+    }
+}
+
+.c-ctnForm__listIcon {
+    max-width: rem(20.45);
+    width: 100%;
+}
+
+.c-ctnForm__listIcon img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-ctnForm__listTitle {
+    font-size: rem(18);
+    font-weight: $bold;
+    color: $blue;
+    margin-left: rem(2);
+
+    @include mq("sp") {
+        font-size: rem(20);
+    }
+}
+
+.c-ctnForm__items {
+    margin-top: rem(23);
+    width: 100%;
+}
+
+.c-ctnForm__item {
+    margin-top: rem(7);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: stretch;
+
+    @include mq("sp") {
+        margin-top: rem(13);
+    }
+}
+
+.c-ctnForm__item:first-child {
+    margin-top: rem(0);
+}
+
+.c-ctnForm__box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+
+    @include mq("sp") {
+        display: block;
+    }
+}
+
+.c-ctnForm__boxList {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    @include mq("sp") {
+        display: block;
+    }
+}
+
+.c-ctnForm__name {
+    max-width: rem(176);
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    font-size: rem(15);
+    font-weight: $medium;
+    padding: rem(10) rem(11);
+    background: #F3EAE3;
+
+    @include mq("sp") {
+        max-width: none;
+        justify-content: center;
+    }
+}
+
+
+.c-ctnForm__nameBox {
+    width: 100%;
+    height: 100%;
+    background: #F3EAE3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @include mq("sp") {
+        justify-content: center;
+    }
+}
+
+.c-ctnForm__name span {
+    font-size: rem(13);
+}
+
+.c-ctnForm__textBox {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+}
+
+.c-ctnForm__mandatory {
+    background: $blue;
+    color: $white;
+    white-space: nowrap;
+    padding: rem(2) rem(5);
+    margin-left: rem(10);
+    font-size: rem(12);
+}
+
+.c-ctnForm__text {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: rem(7);
+
+    @include mq("sp") {
+        margin-top: rem(12);
+        padding-left: rem(0);
+    }
+}
+
+.c-ctnForm__text .error {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.c-ctnForm__text input {
+    width: 100%;
+    font-size: rem(14);
+    padding: rem(2) rem(5);
+}
+
+.c-ctnForm__textBox textarea {
+    width: 100%;
+    padding: rem(5) rem(10);
+    font-size: rem(14);
+    display: block;
+}
+
+.c-ctnForm__checkBox {
+    width: 50%;
+    height: 100%;
+    padding-left: rem(7);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+
+    @include mq("sp") {
+        margin-top: rem(12);
+        width: 100%;
+    }
+}
+
+.c-ctnForm__checkBox span {
+    width: rem(155);
+}
+
+.c-ctnForm__checkBox .mwform-checkbox-field-text {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: relative;
+    padding: 0 rem(36) 0 rem(36);
+    font-size: rem(12);
+    cursor: pointer;
+}
+
+
+.mw_wp_form .horizontal-item+.horizontal-item {
+    margin: rem(0) !important;
+    text-align: left;
+}
+
+.c-ctnForm__noteBox {
+    margin-top: rem(18);
+}
+
+.c-ctnForm__note {
+    font-size: rem(12);
+    line-height: 1.5833;
+}
+
+.c-ctnForm__note a {
+    color: #0791BC;
+}
+
+.c-ctnForm__note--leyout {
+    margin-top: rem(14);
+}
+
+.c-ctnForm__tellBox {
+    margin-top: rem(23);
+}
+
+.c-ctnForm__tellWrap {
+    margin-top: rem(30);
+    text-align: center;
+}
+
+.c-ctnForm__tell {
+    font-size: rem(24);
+    font-weight: $medium;
+}
+
+.c-ctnForm__reception {
+    font-size: rem(14);
+}
+
+.c-ctnForm__praivacy {
+    text-align: center;
+    margin-top: rem(22);
+    font-size: rem(12);
+}
+
+.c-ctnForm__btnBox {
+    max-width: rem(201);
+    width: 100%;
+    margin: auto;
+    padding-top: rem(13);
+}
+
+.c-ctnForm__btn {
+    display: block;
+    max-width: rem(201);
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: $blue;
+    color: $white;
+    padding: rem(10) rem(5) rem(10) rem(30);
+    border: rem(1) solid $blue;
+    cursor: pointer;
+
+    @include mq("sp") {
+        height: rem(34);
+        padding: rem(0) rem(0) rem(0) rem(10);
+    }
+}
+
+
+input[type="checkbox"] {
+    /* デフォルトcheckボックス非表示*/
+    display: none;
+}
+
+.c-ctnForm__praivacy .mwform-checkbox-field-text {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: relative;
+    padding: 0 rem(36) 0 rem(36);
+    font-size: rem(12);
+    cursor: pointer;
+}
+
+.mwform-checkbox-field-text::before,
+.mwform-checkbox-field-text::after {
+    content: "";
+    position: absolute;
+    display: block;
+}
+
+.mwform-checkbox-field-text::before {
+    background: #ffffff;
+    border: rem(1) solid #707070;
+    width: rem(13);
+    height: rem(13);
+    top: 60%;
+    left: 7%;
+    transform: translateY(-50%);
+}
+
+.mwform-checkbox-field-text::after {
+    border-width: rem(4);
+    border-color: transparent transparent $blue $blue;
+    border-style: solid;
+    width: rem(18);
+    height: rem(10);
+    margin-top: -0.2em;
+    top: 45%;
+    left: 7%;
+    transform: translateY(-50%) rotate(-45deg);
+    opacity: 0;
+}
+
+input[type="checkbox"]:checked+.mwform-checkbox-field-text::after {
+    /* css擬似要素 :checked が付加されているときは表示  */
+    opacity: 1;
+}

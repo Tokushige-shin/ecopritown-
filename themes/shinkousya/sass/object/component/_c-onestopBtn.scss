@@ -1,0 +1,47 @@
+.c-onestopBtn {
+    max-width: rem(800);
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: rem(46);
+}
+
+
+.c-onestopBtn__subText {
+    font-size: rem(20);
+    font-weight: $bold;
+    color: $blue;
+    line-height: 1.32;
+
+    @include mq("sp") {
+        font-size: rem(14);
+    }
+}
+
+.c-onestopBtn__title {
+    font-family: $font-family-force;
+    font-size: rem(44);
+    color: $blue;
+    line-height: 1.2;
+    margin-top: rem(30);
+
+    @include mq("sp") {
+        font-size: rem(39);
+    }
+}
+
+.c-onestopBtn__btnBox {
+    margin-top: rem(36);
+    width: rem(238);
+    display: inline-block;
+    border: rem(1) solid $black;
+    text-align: left;
+    font-size: rem(14);
+    line-height: 1.32;
+}
+
+.c-onestopBtn__btn {
+    display: block;
+    width: 100%;
+    padding: rem(12) rem(11) rem(10) rem(15);
+}

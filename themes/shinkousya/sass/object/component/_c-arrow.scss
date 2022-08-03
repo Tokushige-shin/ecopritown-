@@ -1,0 +1,118 @@
+
+// ページネーション　PREV矢印　プロパティ
+
+.c-arrow01 {
+    display: inline-block;
+    position: relative;
+    padding-left: 22px;
+}
+.c-arrow01::before {
+    position: absolute;
+    content: '';
+    width: 16px;
+    height: 16px;
+    background: #46BD78;
+    border-radius: 50%;
+    top: 50%;
+    right: 6px;
+    margin-top: -14px;
+}
+.c-arrow01::after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    border: solid 4px transparent;
+    border-right: solid 6px #fff;
+    top: 50%;
+    right: 12px;
+    margin-top: -10px;
+}
+
+
+// ページネーション　NEXT矢印　プロパティ
+
+.c-arrow02 {
+    display: inline-block;
+    position: relative;
+    padding-left: 22px;
+}
+.c-arrow02::before {
+    position: absolute;
+    content: '';
+    width: 16px;
+    height: 16px;
+    background: #46BD78;
+    border-radius: 50%;
+    top: 50%;
+    left: 6px;
+    margin-top: -14px;
+}
+.c-arrow02::after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    border: solid 4px transparent;
+    border-left: solid 6px #fff;
+    top: 50%;
+    left:12px;
+    margin-top: -10px;
+}
+
+// ワンストップソリューションの詳しい説明はこちら　ボタン矢印
+
+.c-arrow03 {
+    display: inline-block;
+    position: relative;
+}
+.c-arrow03::before {
+    position: absolute;
+    content: '';
+    width: rem(20);
+    height: rem(20);
+    background: #46BD78;
+    border-radius: 50%;
+    top: 55%;
+    right:rem(11);
+    margin-top: -14px;
+}
+.c-arrow03::after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    border: solid rem(6) transparent;
+    border-left: solid rem(8) #fff;
+    top: 55%;
+    right:rem(10);
+    margin-top: -10px;
+}
+
+// 殺菌印刷　ボタン矢印
+.c-arrow04 {
+    display: inline-block;
+    position: relative;
+}
+.c-arrow04::before {
+    position: absolute;
+    content: '';
+    width: rem(20);
+    height: rem(20);
+    background: #46BD78;
+    border-radius: 50%;
+    top: 65%;
+    right:rem(6);
+    margin-top: -14px;
+}
+.c-arrow04::after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    border: solid rem(6) transparent;
+    border-left: solid rem(8) #fff;
+    top: 65%;
+    right:rem(5);
+    margin-top: -10px;
+}

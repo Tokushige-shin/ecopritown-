@@ -1,0 +1,41 @@
+<svg id="グループ_1177" data-name="グループ 1177" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45" height="56" viewBox="0 0 45 56">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_1275" data-name="長方形 1275" width="45" height="56" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="パス_1834" data-name="パス 1834" d="M22.5,0A22.524,22.524,0,0,0,0,22.55C0,39.275,22.382,55.867,22.5,55.995V38.158a15.61,15.61,0,0,1,0-31.22Z" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" y1="1" x2="0.044" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#325abd"/>
+      <stop offset="1" stop-color="#00dbff"/>
+    </linearGradient>
+    <clipPath id="clip-path-4">
+      <path id="パス_1838" data-name="パス 1838" d="M13.513,22.546a9,9,0,0,0,8.987,9v-18a9,9,0,0,0-8.987,9" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="-1.504" y1="2.358" x2="-1.392" y2="2.358" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="グループ_1170" data-name="グループ 1170">
+    <g id="グループ_1169" data-name="グループ 1169" clip-path="url(#clip-path)">
+      <path id="パス_1832" data-name="パス 1832" d="M22.5,38.158A15.61,15.61,0,1,1,38.074,22.546,15.6,15.6,0,0,1,22.5,38.158" fill="#fff"/>
+      <path id="パス_1833" data-name="パス 1833" d="M22.5,0A22.522,22.522,0,0,0,0,22.549C0,39.32,22.5,56,22.5,56S45,39.32,45,22.549A22.526,22.526,0,0,0,22.5,0m0,38.158A15.61,15.61,0,1,1,38.07,22.546,15.6,15.6,0,0,1,22.5,38.158" fill="#1893ec"/>
+    </g>
+  </g>
+  <g id="グループ_1172" data-name="グループ 1172">
+    <g id="グループ_1171" data-name="グループ 1171" clip-path="url(#clip-path-2)">
+      <rect id="長方形_1276" data-name="長方形 1276" width="22.499" height="55.995" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+  <g id="グループ_1174" data-name="グループ 1174">
+    <g id="グループ_1173" data-name="グループ 1173" clip-path="url(#clip-path)">
+      <path id="パス_1835" data-name="パス 1835" d="M22.5,13.547a9,9,0,0,0,0,18Z" fill="#dea826"/>
+      <path id="パス_1836" data-name="パス 1836" d="M22.5,38.158a15.61,15.61,0,0,1,0-31.22Z" fill="#f0f0f0"/>
+      <path id="パス_1837" data-name="パス 1837" d="M31.481,22.546a8.985,8.985,0,1,1-8.981-9,8.991,8.991,0,0,1,8.981,9" fill="#50b7d2"/>
+    </g>
+  </g>
+  <g id="グループ_1176" data-name="グループ 1176">
+    <g id="グループ_1175" data-name="グループ 1175" clip-path="url(#clip-path-4)">
+      <rect id="長方形_1278" data-name="長方形 1278" width="8.987" height="18.003" transform="translate(13.513 13.546)" fill="url(#linear-gradient-2)"/>
+    </g>
+  </g>
+</svg>

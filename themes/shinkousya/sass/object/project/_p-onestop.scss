@@ -1,0 +1,361 @@
+.p-onestop__inner {
+    padding-bottom: rem(96);
+}
+
+.p-onestop__textBox {
+    max-width: rem(600);
+    width: 100%;
+    margin: auto;
+    font-size: rem(14);
+    line-height: 1.75;
+    font-weight: $medium;
+    padding-top: rem(53);
+
+    @include mq("sp") {
+        max-width: rem(550);
+        padding-top: rem(14);
+        padding-left: $padding-sp;
+        padding-right: $padding-sp;
+    }
+}
+
+.p-onestop__contentBox {
+    // overflow-x: scroll;
+
+    @include mq("sp") {
+        max-width: rem(525);
+        width: 100%;
+        margin: auto;
+        margin-bottom: rem(60);
+        position: relative;
+        padding-left: $padding-sp;
+        padding-right: $padding-sp;
+    }
+}
+
+.p-onestop__content {
+    max-width: rem(676);
+    width: 100%;
+    margin: auto;
+    padding-top: rem(54);
+    padding-bottom: rem(100);
+
+    @include mq("sp") {
+        max-width: rem(325);
+        width: 100%;
+        padding-bottom: rem(30);
+    }
+}
+
+// .p-onestop__contents {
+//     overflow: hidden;
+// }
+
+.p-onestop__items {
+    margin-top: rem(-240);
+    display: flex;
+    align-items: center;
+
+    @include mq("sp") {
+        display: none;
+    }
+}
+
+.p-onestop__itemsUnder {
+    margin-top: rem(130);
+    display: flex;
+    align-items: center;
+    margin-left: rem(74);
+
+    @include mq("sp") {
+        display: none;
+    }
+}
+
+.p-onestop__item {
+    max-width: rem(124);
+    width: 100%;
+    margin-right: rem(47.6);
+}
+
+.p-onestop__itemUnder {
+    max-width: rem(136);
+    width: 100%;
+    margin-right: rem(47);
+}
+
+.p-onestop__item:last-child {
+    margin-right: rem(0);
+}
+
+.p-onestop__itemTitle {
+    text-align: center;
+    font-size: rem(15);
+    font-weight: $bold;
+}
+
+.p-onestop__itemText {
+    font-size: rem(14);
+    letter-spacing: rem(-1.5);
+}
+
+
+// タグボックスのCSS 共通プロパティ 
+
+.p-onestop__tagBox {
+    max-width: rem(600);
+    width: 100%;
+    margin: auto;
+    padding-top: rem(90);
+    position: relative;
+
+    @include mq("sp") {
+        max-width: rem(550);
+        padding-left: $padding-sp;
+        padding-right: $padding-sp;
+    }
+}
+
+.p-onestop__tagBubble {
+    max-width: rem(149);
+    width: 100%;
+    position: absolute;
+    top: rem(-30);
+    right: rem(0);
+
+    @include mq("sp") {
+        right: 8%;
+    }
+}
+
+.p-onestop__tagWrap {
+    padding-left: rem(26);
+    padding-right: rem(26);
+
+    @include mq("sp") {
+        padding-left: rem(0);
+        padding-right: rem(0);
+    }
+}
+
+.p-onestop__tagItems {
+    display: flex;
+    flex-wrap: wrap;
+
+    @include mq("sp") {
+        max-width: rem(325);
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+    }
+}
+
+
+.p-onestop__tagItems:first-child {
+    margin-top: rem(0);
+}
+
+.p-onestop__tagItem a {
+    display: block;
+    font-size: rem(16);
+    font-weight: $bold;
+    color: #595757;
+    border: rem(1) solid #595757;
+    padding: rem(2.21) rem(0);
+    text-align: center;
+    background-color: $white;
+}
+
+.p-onestop__tagItem:nth-child(n+5),
+.p-onestop__tagText {
+    margin-top: rem(10);
+
+    @include mq("sp") {
+        margin-top: rem(0);
+    }
+}
+
+.p-onestop__tagItem:nth-child(4) {
+    margin-right: rem(0);
+}
+
+.p-onestop__tagItem:nth-child(7) {
+    margin-right: rem(0);
+
+    @include mq("sp") {
+        margin-right: rem(4);
+    }
+}
+
+.p-onestop__tagItem:nth-child(10) {
+    margin-right: rem(0);
+}
+
+.p-onestop__tagItem:nth-child(n+3),
+.p-onestop__tagText {
+
+    @include mq("sp") {
+        margin-top: rem(10);
+    }
+}
+
+
+.p-onestop__tagItem a:nth-child(2n) {
+
+    @include mq("sp") {
+        margin-right: rem(0);
+    }
+}
+
+.p-onestop__tagItem:last-child {
+    margin-right: rem(0);
+}
+
+.p-onestop__tagText {
+    font-size: rem(16);
+    color: $black;
+    font-weight: $bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include mq("sp") {
+        width: 100%;
+        display: block;
+    }
+}
+
+// タグボックスのCSS 上から幅指定プロパティ
+
+.p-onestop__tagItem--leyout01 {
+    width: rem(95);
+    margin-right: rem(4);
+
+    @include mq("sp") {
+        max-width: rem(117);
+        width: 100%;
+    }
+}
+
+.p-onestop__tagItem--leyout02 {
+    width: rem(164);
+    margin-right: rem(4);
+
+    @include mq("sp") {
+        max-width: rem(203);
+        width: 100%;
+        margin-right: rem(0);
+    }
+}
+
+.p-onestop__tagItem--leyout03 {
+    width: rem(162);
+    margin-right: rem(4);
+
+    @include mq("sp") {
+        max-width: rem(210);
+        width: 100%;
+    }
+}
+
+.p-onestop__tagItem--leyout04 {
+    width: rem(93);
+
+    @include mq("sp") {
+        max-width: rem(110);
+        width: 100%;
+    }
+}
+
+.p-onestop__tagItem--leyout05 {
+    width: rem(188);
+    margin-right: rem(4);
+
+    @include mq("sp") {
+        max-width: rem(154);
+        width: 100%;
+    }
+}
+
+.p-onestop__tagItem--leyout06 {
+    width: rem(210);
+    margin-right: rem(4);
+
+    @include mq("sp") {
+        max-width: rem(166);
+        width: 100%;
+        margin-right: rem(0);
+    }
+}
+
+.p-onestop__tagItem--leyout07 {
+    width: rem(120);
+    margin-right: rem(4);
+
+    @include mq("sp") {
+        max-width: rem(120);
+        width: 100%;
+    }
+}
+
+.p-onestop__tagItem--leyout08 {
+    width: rem(201);
+    margin-right: rem(4);
+
+    @include mq("sp") {
+        max-width: rem(201);
+        width: 100%;
+        margin-right: rem(0);
+    }
+}
+
+.p-onestop__tagItem--leyout09 {
+    width: rem(168);
+    margin-right: rem(4);
+
+    @include mq("sp") {
+        max-width: rem(170);
+        width: 100%;
+    }
+}
+
+.p-onestop__tagItem--leyout10 {
+    width: rem(149);
+
+    @include mq("sp") {
+        max-width: rem(149);
+        width: 100%;
+    }
+}
+
+.p-onestop__tagItem--leyout11 {
+    width: rem(67);
+    margin-right: rem(4);
+
+    @include mq("sp") {
+        max-width: rem(74);
+        width: 100%;
+    }
+}
+
+.p-onestop__tagItem--leyout12 {
+    width: rem(94);
+    margin-right: rem(4);
+
+    @include mq("sp") {
+        max-width: rem(109);
+        width: 100%;
+        margin-right: rem(6);
+    }
+}
+
+.p-onestop__tagItem--leyout13 {
+    width: rem(112);
+    margin-right: rem(4);
+
+    @include mq("sp") {
+        max-width: rem(130);
+        width: 100%;
+        margin-right: rem(0);
+    }
+}

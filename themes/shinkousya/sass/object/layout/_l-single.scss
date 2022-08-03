@@ -1,0 +1,138 @@
+.l-single__inner {
+    max-width: rem(700);
+    width: 100%;
+    margin: auto;
+    padding-top: rem(74);
+
+    @include mq("sp") {
+        max-width: rem(500);
+        padding-left: $padding-sp;
+        padding-right: $padding-sp;
+        padding-top: rem(34);
+    }
+}
+
+.l-single__container {
+    display: flex;
+    align-items: center;
+    border-bottom: rem(1) solid #9A9B9B;
+    padding-bottom: rem(19);
+
+    @include mq("sp") {
+        padding-bottom: rem(16);
+    }
+}
+
+.l-single__day {
+    font-size: rem(16);
+}
+
+.l-single__title {
+    font-size: rem(36);
+    padding-top: rem(10);
+    padding-bottom: rem(24);
+    font-weight: $medium;
+
+    @include mq("sp") {
+        font-size: rem(24);
+    }
+}
+
+.l-single__wrap {
+    max-width: rem(700);
+    width: 100%;
+    margin: auto;
+    padding: rem(30) rem(50);
+    border-bottom: rem(1) solid #9A9B9B;
+
+    @include mq("sp") {
+        padding-top: rem(20);
+        padding-left: rem(0);
+        padding-right: rem(0);
+    }
+}
+
+.l-single__wrap h1 {
+    font-size: rem(23);
+    font-weight: $medium;
+}
+
+.l-single__wrap h2:first-child {
+    margin-top: rem(0);
+}
+
+.l-single__wrap h2 {
+    margin-top: rem(30);
+    font-size: rem(30);
+
+    @include mq("sp") {
+        font-size: rem(22);
+    }
+}
+
+.l-single__wrap h3 {
+    margin-top: rem(25);
+    font-size: rem(26);
+
+    @include mq("sp") {
+        font-size: rem(18);
+    }
+}
+
+.l-single__wrap h4 {
+    margin-top: rem(22);
+    font-size: rem(16);
+
+    @include mq("sp") {
+        font-size: rem(14);
+    }
+}
+
+.l-single__wrap h5 {
+    font-size: rem(14);
+    margin-top: rem(24);
+}
+
+.l-single__wrap h6 {
+    font-size: rem(12);
+    margin-top: rem(24);
+}
+
+
+.l-single__wrap p {
+    font-size: rem(14);
+    font-weight: $medium;
+    margin-top: rem(15);
+    line-height: 1.75;
+}
+
+.l-single__wrap img {
+    max-width: rem(800);
+    width: 100%;
+    margin: auto;
+    display: block;
+    height: auto;
+    object-fit: cover;
+
+    @include mq("sp") {
+        max-width: rem(640);
+    }
+}
+
+.l-single__pageBox {
+    margin-top: rem(70);
+    font-size: rem(16);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @include mq('sp') {
+        margin-top: rem(50);
+        font-size: rem(14);
+    }
+}
+
+.l-single__pageBox--leyput {
+    margin-right: rem(50);
+}

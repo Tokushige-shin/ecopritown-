@@ -1,0 +1,26 @@
+.c-contact-completion__inner {
+    max-width: rem(700);
+    width: 100%;
+    margin: auto;
+    padding-top: rem(60);
+    padding-bottom: rem(60);
+
+    @include mq("sp") {
+        max-width: rem(550);
+        padding-left: $padding-sp;
+        padding-right: $padding-sp;
+        padding-top: rem(30);
+        padding-bottom: rem(30);
+    }
+}
+
+
+.c-contact-completion__textBox {
+    font-size: rem(16);
+    line-height: 1.75;
+}
+
+.c-contact-completion__subtext {
+    margin-top: rem(10);
+    font-size: rem(14);
+}

@@ -1,0 +1,337 @@
+.p-mvTop__inner {
+    padding-top: rem(93);
+    position: relative;
+    z-index: 0;
+}
+
+.p-mvTop__titleBox {
+    max-width: rem(1280);
+    width: 100%;
+    margin: auto;
+    padding-left: rem(82.5);
+    padding-right: rem(82.5);
+    height: rem(439);
+    background-image: url(../img/pc-cloud.png);
+    background-size: 87% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    text-align: center;
+    position: relative;
+    z-index: -1;
+
+    @include mq("sp") {
+        max-width: none;
+        padding-left: rem(0);
+        padding-right: rem(0);
+        background-image: url(../img/sp-cloud.png);
+        background-size: 100% 100%;
+        background-position: bottom;
+    }
+}
+
+.p-mvTop__subTitle {
+    font-size: rem(23);
+    font-weight: $sb;
+    font-family: $font-family-second;
+
+    @include mq("sp") {
+        font-size: rem(18);
+    }
+}
+
+.p-mvTop__title {
+    max-width: rem(500);
+    width: 100%;
+    margin: auto;
+    padding-top: rem(26);
+    padding-bottom: rem(41);
+
+    @include mq("sp") {
+        max-width: rem(325);
+    }
+}
+
+.p-mvTop__comment {
+    font-size: rem(16);
+    font-weight: $medium;
+    font-family: $font-family-second;
+    line-height: 2;
+
+    @include mq("sp") {
+        font-size: rem(14);
+    }
+}
+
+.p-mvTop__balloon {
+    position: absolute;
+    top: 35%;
+    left: 76%;
+    z-index: -1;
+
+    @include mq("sp") {
+        display: none;
+    }
+}
+
+.p-mvTop__balloon img {
+    max-width: rem(135);
+    width: 100%;
+}
+
+
+// メインビュー各島のポジション指定
+
+.p-mvTop__container {
+    position: relative;
+    width: 100%;
+    margin-top: rem(-40);
+
+    @include mq("sp") {
+        margin-top: rem(-85);
+    }
+}
+
+.p-mvTop__container::before {
+    content: "";
+    display: block;
+    padding-top: 78%;
+
+    @include mq("sp") {
+        padding-top: 150%;
+    }
+}
+
+.p-mvTop__block01 {
+    position: absolute;
+    top: 1%;
+    right: 5%;
+    width: 78.59%;
+
+    @include mq("sp") {
+        width: 100%;
+        right: 0;
+    }
+}
+
+
+.p-mvTop__block02 {
+    position: absolute;
+    // z-index: 1; 
+    top: 28.5%;
+    left: 4%;
+    width: 71.87%;
+
+    @include mq("sp") {
+        width: 100%;
+        top: 26.2%;
+        left: 0;
+    }
+}
+
+.p-mvTop__block03 {
+    position: absolute;
+    z-index: 3;
+    top: 53%;
+    right: 11%;
+    width: 64.6%;
+
+    @include mq("sp") {
+        width: 100%;
+        top: 44%;
+        right: 0;
+    }
+}
+
+// 看板配置共通クラス
+
+.p-mvTop__block-pictureBox {
+    position: relative;
+}
+
+// 看板配置指定プロパティ ターゲット1（上から数字で表示している）
+
+.p-mvTop__signboard01 {
+    display: block;
+    position: absolute;
+    top: 15%;
+    right: 23%;
+    z-index: 33;
+    width: 17.5%;
+
+    @include mq("sp") {
+        width: 24.47%;
+        top: 12%;
+        right: 2%;
+    }
+}
+
+.p-mvTop__signboard-target01 {
+    margin-bottom: rem(9.4);
+
+    @include mq("sp") {
+        margin-bottom: rem(4.7);
+    }
+}
+
+
+// 看板配置指定プロパティ ターゲット2
+
+.p-mvTop__signboard02 {
+    display: block;
+    position: absolute;
+    top: 20.5%;
+    left: 28.4%;
+    z-index: 33;
+    width: 15%;
+
+    @include mq("sp") {
+        width: 27.74%;
+        top: 19.4%;
+        left: 11%;
+    }
+}
+
+
+.p-mvTop__signboard-target02 {
+    margin-bottom: rem(8);
+
+    @include mq("sp") {
+        margin-bottom: rem(4);
+    }
+}
+
+// 看板配置指定プロパティ ターゲット3
+
+.p-mvTop__signboard03 {
+    display: block;
+    position: absolute;
+    top: 28.5%;
+    left: 21.68%;
+    z-index: 33;
+    width: 16.68%;
+    cursor: pointer;
+
+    @include mq("sp") {
+        width: 21.67%;
+        top: 25.6%;
+        left: 2.68%;
+    }
+}
+
+.p-mvTop__signboard-target03 {
+    margin-bottom: rem(8);
+
+    @include mq("sp") {
+        margin-bottom: rem(4);
+    }
+}
+
+// 看板配置指定プロパティ ターゲット4
+
+.p-mvTop__signboard04 {
+    display: block;
+    position: absolute;
+    top: 21.5%;
+    left: 48.68%;
+    z-index: 33;
+    width: 16.68%;
+
+    @include mq("sp") {
+        width: 21.67%;
+        top: 19%;
+        left: 40.18%;
+    }
+}
+
+.p-mvTop__signboard-target04 {
+    margin-bottom: rem(8);
+
+    @include mq("sp") {
+        margin-bottom: rem(4);
+    }
+}
+
+// 看板配置指定プロパティ ターゲット5
+
+.p-mvTop__signboard05 {
+    display: block;
+    position: absolute;
+    top: 20.5%;
+    left: 10.68%;
+    z-index: 33;
+    width: 18.5%;
+    cursor: pointer;
+
+    @include mq("sp") {
+        width: 21.6%;
+        top: 22.5%;
+        left: 14.18%;
+    }
+}
+
+.p-mvTop__signboard-target05 {
+    margin-bottom: rem(8);
+
+    @include mq("sp") {
+        margin-bottom: rem(4);
+    }
+}
+
+// 看板配置指定プロパティ ターゲット6
+
+.p-mvTop__signboard06 {
+    display: block;
+    position: absolute;
+    bottom: 0%;
+    right: 22.68%;
+    z-index: 99999;
+    width: 20%;
+
+    @include mq("sp") {
+        width: 23.2%;
+        bottom: 0%;
+        right: 5%;
+    }
+}
+
+.p-mvTop__signboard-target06 {
+    margin-bottom: rem(8);
+
+    @include mq("sp") {
+        margin-bottom: rem(4);
+    }
+}
+
+
+// ホバー時に吹き出し登場プロパティ
+
+#toolTip {
+    @include mq(sp) {
+        display: none;
+    }
+}
+
+.p-mvTop__signboard-picture-update {
+    width: 100%;
+    display: none;
+    position: absolute;
+    top: -20%;
+    left: 84%;
+    z-index: 1;
+    animation: fadeIn 0.6s;
+
+    @include mq("sp") {
+        display: none;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,17 @@
+.l-header__inner {
+    width: 100%;
+    padding-left: rem(37);
+
+    @include mq("sp") {
+        padding-left: rem(18);
+    }
+}
+
+.l-header__logo {
+    display: inline-block;
+    padding-top: rem(26);
+    position: relative;
+    z-index: 99;
+}
+
+

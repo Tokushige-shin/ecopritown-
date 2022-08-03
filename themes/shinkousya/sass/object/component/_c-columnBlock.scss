@@ -1,0 +1,24 @@
+.c-columnBlock__items {
+    display: flex;
+
+    @include mq(sp) {
+        display: block;
+    }
+}
+
+.c-columnBlock__item:last-child {
+    margin-right: rem(0);
+}
+
+.c-columnBlock__title {
+    font-size: rem(16);
+    font-weight: $bold;
+    margin-top: rem(13);
+    text-align: center;
+}
+
+.c-columnBlock__text {
+    font-size: rem(14);
+    letter-spacing: rem(-1.21);
+    line-height: 1.75;
+}

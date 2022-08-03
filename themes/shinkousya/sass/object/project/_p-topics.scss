@@ -1,0 +1,34 @@
+.p-topics__inner {
+
+    @include mq("sp") {
+        max-width: rem(550);
+        width: 100%;
+        margin: auto;
+        padding-left: $padding-sp;
+        padding-right: $padding-sp;
+    }
+}
+
+.p-topics__picture {
+    max-width: rem(519);
+    width: 100%;
+    margin: auto;
+
+    @include mq("sp") {
+        padding-top: rem(3);
+        padding-left: rem(19);
+        padding-right: rem(19);
+    }
+}
+
+.p-topics__continer {
+    max-width: rem(700);
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: rem(64);
+
+    @include mq("sp") {
+        padding-top: rem(49);
+    }
+}

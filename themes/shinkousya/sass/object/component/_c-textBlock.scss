@@ -1,0 +1,19 @@
+.c-textBlock__title {
+    font-size: rem(20);
+    font-weight: $bold;
+    color: $blue;
+    text-align: center;
+
+    @include mq(sp) {
+        font-size: rem(17);
+    }
+}
+
+.c-textBlock__text {
+    max-width: rem(600);
+    width: 100%;
+    margin: auto;
+    font-size: rem(14);
+    line-height: 1.75;
+    margin-top: rem(10);
+}

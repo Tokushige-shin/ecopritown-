@@ -1,0 +1,19 @@
+	// PC時に非表示
+
+	.u-hidden-pc {
+		display: none;
+
+		@include mq("sp") {
+			display: block;
+		}
+	}
+
+	// スマホ時に非表示
+
+	.u-hidden-sp {
+		display: block;
+
+		@include mq("sp") {
+			display: none;
+		}
+	}

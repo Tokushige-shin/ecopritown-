@@ -1,0 +1,27 @@
+.c-anima-1 {
+    background-color: $blue;
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    background-size: 200% auto;
+    background-image: linear-gradient(to right, $white 0%, $white 50%, $blue 50%, $blue 100%);
+    transition: color 0.4s, background-position 0.4s;
+}
+
+.c-anima-1:hover {
+    background-position: 0 0;
+    color: $blue;
+}
+
+.c-anima-2 {
+    background-color: $green;
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    background-size: 200% auto;
+    background-image: linear-gradient(to right, $white 0%, $white 50%, $green 50%, $green 100%);
+    transition: color 0.4s, background-position 0.4s;
+}
+
+.c-anima-2:hover {
+    background-position: 0 0;
+    color: $green;
+}

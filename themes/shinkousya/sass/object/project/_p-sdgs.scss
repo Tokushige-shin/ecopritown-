@@ -1,0 +1,157 @@
+.p-sdgs__inner {
+    width: 100%;
+    height: rem(660);
+    padding-left: rem(51.5);
+    padding-right: rem(51.5);
+    padding-top: rem(50);
+    padding-bottom: rem(67);
+    margin: auto;
+    // overflow-y: auto;
+    position: relative;
+
+    @include mq("sp") {
+        max-width: rem(500);
+        height: rem(500);
+        margin: auto;
+        padding-top: rem(41);
+        padding-left: rem(32);
+        padding-right: rem(32);
+        padding-bottom: rem(53);
+    }
+}
+
+.p-sdgs__scrollBox {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p-sdgs__batsu {
+    display: block;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6AC581;
+    color: $white;
+    font-size: rem(30);
+}
+
+.p-sdgs__scrollText {
+    margin-top: rem(10);
+    font-size: rem(12);
+    line-height: 1.75;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+.p-sdgs__container {
+    max-width: rem(600);
+    width: 100%;
+    height: rem(560);
+    padding-left: rem(23.5);
+    padding-right: rem(23.5);
+    overflow-y: auto;
+    white-space: normal;
+
+    @include mq("sp") {
+        max-width: rem(500);
+        height: rem(420);
+        padding-left: rem(10);
+        padding-right: rem(10);
+    }
+}
+
+.p-sdgs__title {
+    font-size: rem(30);
+    font-weight: $bold;
+    color: $blue;
+    text-align: center;
+
+    @include mq("sp") {
+        font-size: rem(26);
+    }
+}
+
+.p-sdgs__subText {
+    font-size: rem(14);
+    margin-top: rem(24);
+    padding-bottom: rem(27);
+
+    @include mq("sp") {
+        font-size: rem(14);
+        margin-top: rem(18);
+        padding-bottom: rem(20);
+    }
+}
+
+// 共通パーツブロック
+
+.p-sdgs__block {
+    border-top: rem(1) solid $blue;
+    padding-top: rem(23);
+    padding-bottom: rem(31);
+}
+
+.p-sdgs__blockTitle {
+    font-size: rem(22);
+    font-weight: $bold;
+    color: $blue;
+    text-align: center;
+
+    @include mq("sp") {
+        font-size: rem(18);
+    }
+}
+
+.p-sdgs__blockLogo {
+    max-width: rem(340);
+    width: 100%;
+    margin: auto;
+
+    @include mq("sp") {
+        max-width: none;
+        padding-left: rem(35);
+        padding-right: rem(35);
+    }
+}
+
+.p-sdgs__logoText {
+    margin-top: rem(10);
+    font-size: rem(14);
+    line-height: 1.75;
+}
+
+.p-sdgs__blockPicture {
+    margin-top: rem(26);
+
+}
+
+.p-sdgs__text {
+    margin-top: rem(24);
+    font-size: rem(14);
+    line-height: 1.75;
+}
+
+.p-sdgs__iconBox {
+    display: flex;
+}
+
+.p-sdgs__iconBox li {
+    max-width: rem(76);
+    width: 100%;
+    margin-top: rem(20);
+    margin-right: rem(11);
+
+    @include mq("sp") {
+        max-width: rem(83);
+    }
+}
+
+.p-sdgs__iconBox li:last-child {
+    margin-right: rem(0);
+}

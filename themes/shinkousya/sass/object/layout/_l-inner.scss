@@ -1,0 +1,19 @@
+
+// インナー
+.l-inner {
+	max-width: $l-inner + strip-unit($padding-pc) * 2;
+	width: 100%;
+	height: inherit;
+	margin: 0 auto;
+	padding-right: $padding-pc;
+	padding-left: $padding-pc;
+
+	@include mq(sp) {
+		max-width: rem(550);
+		width: 100%;
+		padding-right: $padding-sp;
+		padding-left: $padding-sp;
+	}
+}
+
+

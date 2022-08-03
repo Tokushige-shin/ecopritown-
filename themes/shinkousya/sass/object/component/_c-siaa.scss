@@ -1,0 +1,53 @@
+.c-siaa__inner {
+    max-width: rem(600);
+    width: 100%;
+    margin: auto;
+
+    @include mq(sp) {
+        max-width: rem(550);
+    }
+}
+
+.c-siaa__title {
+    font-size: rem(26);
+    font-weight: $bold;
+    text-align: center;
+    color: $blue;
+
+    @include mq(sp) {
+        font-size: rem(20);
+    }
+}
+
+.c-siaa__wrap {
+    margin-top: rem(19);
+    display: flex;
+
+    @include mq(sp) {
+        display: block;
+    }
+}
+
+.c-siaa__picture {
+    max-width: rem(245);
+    width: 100%;
+    margin-right: rem(14);
+
+    @include mq(sp) {
+        max-width: none;
+        margin-right: rem(0);
+    }
+}
+
+
+.c-siaa__text {
+    max-width: rem(342);
+    width: 100%;
+    font-size: rem(14);
+    line-height: 1.75;
+
+    @include mq(sp) {
+        max-width: none;
+        margin-top: rem(18);
+    }
+}

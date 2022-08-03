@@ -1,0 +1,67 @@
+// 色
+$text-color: #000000; // テキスト色
+$black :#000000;
+$white: #fff; 
+$green :#46BD78;
+$blue :#173389;
+
+
+// マウスホバー
+$opacity: 0.7; // 透過度
+
+// webフォント読み込み
+
+@font-face {
+	font-family: "Futura Extra Bold";
+	font-weight: 900;
+	src: url("../font/Futura Extra Bold.woff") format("woff");
+}
+
+@font-face {
+	font-family: "FuturTDem";
+	font-weight: 300;
+	src: url("../font/FuturTDem.woff") format("woff");
+}
+
+@font-face {
+	font-family: "FuturaT-Demi";
+	font-weight: 300;
+	src: url("../font/FuturaT-Demi.woff") format("woff");
+}
+
+
+// フォント
+$font-family-base:'Noto Sans JP', sans-serif; // ベースフォント
+$font-family-second :'Hiragino Sans', sans-serif;
+$font-family-third: 'Dela Gothic One', cursive;
+$font-family-force: 'Futura Extra Bold';
+$font-family-five: 'FuturTDem';
+$font-family-six: 'FuturaT-Demi';
+$font-size-base: 16px; // ベースフォントサイズ
+$font-weight-base: 300; // ベースフォントウェイト
+$lh: 1.6; // ベース行間
+
+// フォントサイズ
+$regular :300;
+$nomarl :400;
+$medium :500;
+$sb :600;
+$bold :700;
+
+// ---
+// レイアウト
+// ---
+$l-inner: 1000px; // インナー幅
+$l-sp: 750px; // タブレットサイズ
+$l-tab :1024px;
+$l-pc: 1920px; // パソコン幅
+
+// ブレークポイント（PC基準）
+$breakpoints: ("sp": "screen and (max-width: #{$l-sp - 1})",
+	"tab": "screen and (max-width: #{$l-tab - 1 })",
+	"pc": "screen and (min-width: #{$l-pc})",
+);
+
+
+$padding-pc: 25px; // タブレット時の余白
+$padding-sp: 25px; // スマホ時の余白

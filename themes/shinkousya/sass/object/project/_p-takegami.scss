@@ -1,0 +1,192 @@
+// タイトル共通パーツ
+.takegami h2,
+.takegami h3 {
+    text-align: center;
+}
+
+.p-takegami__titlePicture {
+    max-width: rem(607);
+    width: 100%;
+    margin: auto;
+    padding-top: rem(17);
+    padding-bottom: rem(30);
+}
+
+.p-takegamiTitle__subText {
+    font-size: rem(15);
+    font-weight: $medium;
+    line-height: 1.8666;
+
+    @include mq("sp") {
+        font-size: rem(14);
+    }
+}
+
+.p-takegami__inner {
+    padding-top: rem(46);
+    padding-bottom: rem(53);
+
+    @include mq("sp") {
+        max-width: rem(550);
+        width: 100%;
+        margin: auto;
+        padding-right: $padding-sp;
+        padding-left: $padding-sp;
+        padding-top: rem(38.5);
+        padding-bottom: rem(38.5);
+    }
+}
+
+.p-takegami__wrap,
+.p-takegami__development {
+    max-width: rem(600);
+    width: 100%;
+    margin: auto;
+}
+
+.p-takegami-processing {
+    max-width: rem(700);
+    width: 100%;
+    margin: auto;
+}
+
+.p-takegami__title {
+    font-size: rem(30);
+    font-weight: $bold;
+    color: $blue;
+
+    @include mq("sp") {
+        font-size: rem(20);
+    }
+}
+
+.p-takegami-processing__textBox {
+    padding-left: rem(165);
+
+    @include mq("sp") {
+        padding-left: rem(0);
+    }
+}
+
+.p-takegami-processing__tag--leyout {
+    max-width: rem(140);
+    width: 100%;
+    margin-right: rem(39);
+
+    @include mq("sp") {
+        max-width: rem(131);
+        margin-right: rem(24);
+    }
+}
+
+.p-takegami__sub-text {
+    text-align: center;
+    margin-top: rem(12);
+    font-weight: $medium;
+    font-size: rem(14);
+    line-height: 1.86666;
+
+    @include mq("sp") {
+        margin-top: rem(7);
+        letter-spacing: rem(-0.6);
+    }
+}
+
+.p-takegami__pictureBox {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: rem(57);
+
+    @include mq("sp") {
+        margin-top: rem(27);
+    }
+}
+
+.p-takegami__picture {
+    max-width: calc(50% - #{rem(15)} * 1 / 2);
+    width: 100%;
+    margin-right: rem(15);
+}
+
+.p-takegami__picture:nth-child(2n) {
+    margin-right: rem(0);
+}
+
+.p-takegami__picture:nth-child(n+3) {
+    margin-top: rem(15);
+}
+
+.p-takegami-processing {
+    max-width: rem(700);
+    width: 100%;
+    margin: auto;
+    margin-top: rem(45);
+}
+
+// .p-takegami-processing-items {
+//     margin-top: rem(29);
+// }
+
+// .p-takegami-processing-item:nth-child(2) {
+//     margin-top: rem(17);
+// }
+
+// .p-takegami-processing-textBox {
+//     display: flex;
+//     font-size: rem(14);
+//     border-bottom: rem(1) solid #9A9B9B;
+//     padding-bottom: rem(19);
+//     padding-left: rem(165);
+
+//     @include mq("sp") {
+//         font-size: rem(13);
+//         padding-left: rem(0);
+//     }
+// }
+
+// .p-takegami-processing-tag {
+//     max-width: rem(140);
+//     width: 100%;
+//     border: rem(1) solid $black;
+//     margin-right: rem(39);
+//     text-align: center;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+
+//     @include mq("sp") {
+//         max-width: rem(131);
+//         margin-right: rem(24);
+//     }
+// }
+
+
+// .p-takegami-processing-text span {
+//     color: #0791BC;
+// }
+
+.p-takegami__development {
+    margin-top: rem(41);
+
+    @include mq("sp") {
+        margin-top: rem(39);
+    }
+}
+
+.p-takegami__development-title {
+    font-size: rem(20);
+    font-family: $font-family-second;
+    font-weight: $sb;
+}
+
+.p-takegami__development-text {
+    margin-top: rem(24);
+    font-size: rem(14);
+    text-align: center;
+    line-height: 1.92;
+
+    @include mq("sp") {
+        margin-top: rem(18);
+        letter-spacing: rem(-0.6);
+    }
+}

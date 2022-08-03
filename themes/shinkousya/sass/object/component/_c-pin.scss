@@ -1,0 +1,45 @@
+.c-pin__signboard--animation:hover .c-pin {
+    animation-name: none;
+}
+
+.c-pin {
+    animation: rolling 2.2s linear infinite;
+}
+.c-pin__01 {
+    width: 25.57%;
+    animation-delay: 0.2s;
+}
+
+.c-pin__02 {
+    width: 22.94%;
+    animation-delay: 0.3s;
+}
+
+.c-pin__03 {
+    width: 29.33%;
+    animation-delay: 0.4s;
+}
+
+.c-pin__04 {
+    width: 29.33%;
+    animation-delay: 0.5s;
+}
+
+.c-pin__05 {
+    width: 29.42%;
+    animation-delay: 0.6s;
+}
+
+.c-pin__06 {
+    width: 27.22%;
+    animation-delay: 0.7s;
+}
+
+@keyframes rolling {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
