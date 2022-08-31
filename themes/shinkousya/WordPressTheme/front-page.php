@@ -19,7 +19,7 @@ $original = esc_url(home_url('/original/'));
             <p class="p-mvTop__comment">
                 環境に配慮した印刷、<br class="u-hidden-pc">エコプリンティングをテーマにした<br />
                 エコプリタウンは新しい印刷の価値を<br class="u-hidden-pc">追求する、新晃社の特設サイト。<br />
-                SDGsに対応した製造工程やオリジナル製品<br class="u-hidden-pc">などを中心にご紹介します。
+                紙製パッケージや竹紙ファイルなどの<br class="u-hidden-pc">OEM製品を中心にご紹介します。
             </p>
             <div class="p-mvTop__balloon js-fade">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/balloon.png" alt="気球">

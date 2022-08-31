@@ -8,7 +8,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- SEO系 WordPressのプラグインで設定しております。（プラグイン名：all in one seo）-->
   <!-- <meta name="description" content="東京都北区にある特殊印刷・加工を得意とする新晃社がエコ印刷・製品をご紹介するエコプリンティングタウンです"> -->
-  <meta name="keywords" content="株式会社新晃社、エコ印刷、特殊印刷、特殊加工、カタログ、パンフレット、環境、印刷" />
+  <meta name="keywords" content="株式会社新晃社、エコ印刷、特殊印刷、特殊加工、脱プラ、パッケージ、環境、印刷" />
   <!--  グーグルフォント読み込み  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
