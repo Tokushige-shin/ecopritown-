@@ -38,7 +38,7 @@ $catalog = esc_url(home_url('/ecopritown/catalog-pamphlet/'));
                 <div class="c-card__items c-card-list js-c-card-list01">
                     <div class="c-card-list__item c-card-item01">
                         <div class="c-card-item__img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/promotion-picture01.jpg" alt="竹紙ファイルを写している画像">
+                            <a href="/ecopritown/takegami-file/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/promotion-picture01.jpg" alt="竹紙ファイルを写している画像"></a>
                         </div>
                         <div class="c-card-item__content">
                             <p class="c-card-item__title">竹紙ファイル</p>
@@ -51,7 +51,7 @@ $catalog = esc_url(home_url('/ecopritown/catalog-pamphlet/'));
 
                     <div class="c-card-list__item c-card-item01">
                         <div class="c-card-item__img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/promotion-picture02.jpg" alt="ポケットフォルダを写している画像">
+                            <a href="/ecopritown/pocket-folder/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/promotion-picture02.jpg" alt="ポケットフォルダを写している画像"></a>
                         </div>
                         <div class="c-card-item__content">
                             <p class="c-card-item__title">ポケットフォルダ</p>
@@ -64,7 +64,7 @@ $catalog = esc_url(home_url('/ecopritown/catalog-pamphlet/'));
 
                     <div class="c-card-list__item c-card-item01">
                         <div class="c-card-item__img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/promotion-picture03.jpg" alt="抗菌マスクケースを写している画像">
+                            <a href="/ecopritown/mask-case/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/promotion-picture03.jpg" alt="抗菌マスクケースを写している画像"></a>
                         </div>
                         <div class="c-card-item__content">
                             <p class="c-card-item__title">
@@ -86,7 +86,7 @@ $catalog = esc_url(home_url('/ecopritown/catalog-pamphlet/'));
                 <div class="c-card__items c-card__items--leyout c-card-list js-c-card-list02">
                     <div href="" class="c-card-list__item c-card-item02">
                         <div class="c-card-item__img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/plastic-pcture01.jpg" alt="紙製ファイルを写している画像">
+                           <a href="/ecopritown/paper-file/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/plastic-pcture01.jpg" alt="紙製ファイルを写している画像"></a>
                         </div>
                         <div class="c-card-item__content">
                             <p class="c-card-item__title">
@@ -101,7 +101,7 @@ $catalog = esc_url(home_url('/ecopritown/catalog-pamphlet/'));
 
                     <div class="c-card-list__item c-card-item02">
                         <div class="c-card-item__img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/plastic-pcture02.jpg" alt="紙製パッケージを写している画像">
+                            <a href="/ecopritown/paper/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/plastic-pcture02.jpg" alt="紙製パッケージを写している画像"></a>
                         </div>
                         <div class="c-card-item__content">
                             <p class="c-card-item__title">
@@ -116,7 +116,7 @@ $catalog = esc_url(home_url('/ecopritown/catalog-pamphlet/'));
 
                     <div class="c-card-list__item c-card-item02">
                         <div class="c-card-item__img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/plastic-pcture03.jpg" alt="紙製マスクホルダーを写している画像">
+                            <a href="/ecopritown/paper-mask-folder/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/plastic-pcture03.jpg" alt="紙製マスクホルダーを写している画像"></a>
                         </div>
                         <div class="c-card-item__content">
                             <p class="c-card-item__title">
@@ -138,7 +138,7 @@ $catalog = esc_url(home_url('/ecopritown/catalog-pamphlet/'));
                 <div class="c-card__items c-card__items--leyout c-card-list js-c-card-list03">
                     <div class="c-card-list__item c-card-item03">
                         <div class="c-card-item__img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/support-picture01.jpg" alt="パンフレットに会社案内を写している画像">
+                            <a href="/ecopritown/company-profile/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/support-picture01.jpg" alt="パンフレットに会社案内を写している画像"></a>
                         </div>
                         <div class="c-card-item__content">
                             <p class="c-card-item__title">会社案内</p>
@@ -151,7 +151,7 @@ $catalog = esc_url(home_url('/ecopritown/catalog-pamphlet/'));
 
                     <div class="c-card-list__item c-card-item03">
                         <div class="c-card-item__img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/support-picture02.jpg" alt="名刺/封筒を写している画像">
+                            <a href="/ecopritown/name-card-envelope/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/support-picture02.jpg" alt="名刺/封筒を写している画像"></a>
                         </div>
                         <div class="c-card-item__content">
                             <p class="c-card-item__title">名刺/封筒</p>
@@ -164,7 +164,7 @@ $catalog = esc_url(home_url('/ecopritown/catalog-pamphlet/'));
 
                     <div class="c-card-list__item c-card-item03">
                         <div class="c-card-item__img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/support-picture03.jpg" alt="カタログ/パンフレットを写している画像">
+                            <a href="/ecopritown/catalog-pamphlet/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/support-picture03.jpg" alt="カタログ/パンフレットを写している画像"></a>
                         </div>
                         <div class="c-card-item__content">
                             <p class="c-card-item__title">
