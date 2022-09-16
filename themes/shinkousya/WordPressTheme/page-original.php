@@ -24,7 +24,7 @@ $catalog = esc_url(home_url('/ecopritown/catalog-pamphlet/'));
         <p class="p-original__text">
             環境に配慮した印刷、エコプリンティングを<br class="u-hidden-pc">テーマにした<br class="u-hidden-sp">
             エコプリタウンは新しい印刷の<br class="u-hidden-pc">価値を追求する、新晃社の特設サイト。<br />
-            SDGsに対応した製造工程やオリジナル製品<br class="u-hidden-pc">などを中心にご紹介します。
+            SDGsに対応した製造工程や素材で<br class="u-hidden-pc">作成される環境に配慮した<br />オリジナル製品などを中心にご紹介します。
         </p>
 
         <div class="p-original__container">
@@ -43,7 +43,7 @@ $catalog = esc_url(home_url('/ecopritown/catalog-pamphlet/'));
                         <div class="c-card-item__content">
                             <p class="c-card-item__title">竹紙ファイル</p>
                             <p class="c-card-item__text">
-                                脱プラがコンセプトの竹紙ファイル。生物多様性の保全や森林・里山保全、国土保全の観点から国産竹100％の原料を使った環境に配慮した紙製のファイルです。
+                                PP素材を利用したクリファイルに代わる脱プラがコンセプトの竹紙ファイル。生物多様性の保全や森林・里山保全、国土保全の観点から国産竹100％の原料を使った環境に配慮した紙製のファイルです。
                             </p>
                             <a href="/ecopritown/takegami-file/" class="c-btn-1 c-anima-2">詳しくはこちら　＞</a>
                         </div>
@@ -108,7 +108,7 @@ $catalog = esc_url(home_url('/ecopritown/catalog-pamphlet/'));
                                 紙製パッケージ
                             </p>
                             <p class="c-card-item__text">
-                                紙製パッケージでプラスチックの部分を少しでも紙に置き換えることで、プラスチックごみを減らし、環境への負荷を軽減できます。
+                                紙製パッケージでプラスチックの部分を少しでも紙に置き換えることで、プラスチックごみを減らし、環境への負荷を軽減できます。また特殊印刷・加工で表現もワンラックアップ！
                             </p>
                             <a href="/ecopritown/paper/" class="c-btn-1 c-anima-2">詳しくはこちら　＞</a>
                         </div>
@@ -156,7 +156,7 @@ $catalog = esc_url(home_url('/ecopritown/catalog-pamphlet/'));
                         <div class="c-card-item__content">
                             <p class="c-card-item__title">名刺/封筒</p>
                             <p class="c-card-item__text">
-                                名刺や封筒は、最も身近でよく使われる印刷物です。第一印象として環境へ配慮している会社と印象付けることができます。
+                                名刺や封筒は、最も身近でよく使われる印刷物です。名刺にロゴを印刷することで第一印象として環境へ配慮している会社と印象付けることができます。
                             </p>
                             <a href="/ecopritown/name-card-envelope/" class="c-btn-1 c-anima-2">詳しくはこちら　＞</a>
                         </div>
