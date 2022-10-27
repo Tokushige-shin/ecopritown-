@@ -18,7 +18,6 @@
                 商品パッケージの多くは、購入後ごみとして廃棄されてしまいます。しかし、商品を販売するうえで欠かせないのも事実です。そのパッケージでプラスチックの部分を少しでも紙に置き換えることで、プラスチックごみを減らし、環境への負荷を軽減できます。紙製パッケージは、印刷しやすい、再利用しやすいなどメリットもあり、形状や紙の種類など工夫することで紙としてのデメリットを補うことも可能です。また紙製パッケージは、特殊印刷・特殊加工をすることで、オリジナリティあふれるパッケージデザインを作ることも可能です。
                 </p>
             </div>
-
             <div class="c-block-contents">
                 <div class="c-block-content">
                     <div class="c-blockPicture">
@@ -26,7 +25,7 @@
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/paper-picture01.jpg" alt="ユニバーサルフックにも対応した紙製パッケージを写してる画像">
                         </div>
                         <p class="c-blockPicture__text">
-                            ユニバーサルフックにも対応した紙製パッケージ
+                            ユニバーサルフックにも対応した紙製パッケージ（フックは切り取り可能で、プレゼント包装も対応）
                         </p>
                     </div>
                 </div>
@@ -37,7 +36,7 @@
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/paper-picture02.jpg" alt="中身が見える箱型ケースを写してる画像">
                         </div>
                         <p class="c-blockPicture__text">
-                            中身が見える箱型ケース
+                            商品が見える箱型ケース
                         </p>
                     </div>
                 </div>
@@ -54,6 +53,11 @@
                 </div>
             </div>
         </div>
+             <div class="p-original__content" style="margin-bottom:40px">
+                <h2 class="p-original__title">採用実績</h2>
+                <p class="p-original__subText">筆記具の紙パッケージ、缶詰の外箱、食品の箱パッケージ、DVDボックスの箱、化粧品パッケージ、パッケージ台紙等、その他実績多数</p>
+                </div>
+            </div>
     </div>
 </section>
 
