@@ -2,9 +2,9 @@
 
 <section class="p-name-card-envelope">
     <div class="c-underTitle__box">
-        <p class="c-underTitle__subText">環境に対応した</p>
-        <h1 class="c-underTitle__title">特殊印刷・製品</h1>
-        <h2 class="c-underTitle__heading c-underTitle__heading--leyout">名刺/封筒</h2>
+        <p class="c-underTitle__subText">環境・SDGsに対応した</p>
+        <h1 class="c-underTitle__title">特殊印刷・加工製品</h1>
+        <h2 class="c-underTitle__heading c-underTitle__heading--leyout">環境への配慮を印象付ける名刺/封筒印刷</h2>
     </div>
 
     <div class="p-name-card-envelope__inner l-inner-fixed">

@@ -2,9 +2,9 @@
 
 <section class="p-mask-case">
     <div class="c-underTitle__box">
-        <p class="c-underTitle__subText">環境に対応した</p>
-        <h1 class="c-underTitle__title">特殊印刷・製品</h1>
-        <h2 class="c-underTitle__heading c-underTitle__heading--leyout">抗菌マスクケース</h2>
+        <p class="c-underTitle__subText">環境・SDGsに対応した</p>
+        <h1 class="c-underTitle__title">特殊印刷・加工製品</h1>
+        <h2 class="c-underTitle__heading c-underTitle__heading--leyout">安心・安全の抗菌マスクケース</h2>
     </div>
     <div class="p-mask-case__inner">
         <div class="l-inner-fixed">

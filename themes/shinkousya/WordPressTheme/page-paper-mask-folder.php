@@ -2,9 +2,9 @@
 
 <section class="p-paper-mask-foloder">
     <div class="c-underTitle__box">
-        <p class="c-underTitle__subText">環境に対応した</p>
-        <h1 class="c-underTitle__title">特殊印刷・製品</h1>
-        <h2 class="c-underTitle__heading c-underTitle__heading--leyout">紙製マスクホルダー</h2>
+    <p class="c-underTitle__subText">環境・SDGsに対応した</p>
+    <h1 class="c-underTitle__title">特殊印刷・加工の脱プラ製品</h1>
+        <h2 class="c-underTitle__heading c-underTitle__heading--leyout">清潔・安心な紙製抗菌マスクホルダー</h2>
     </div>
     <div class="p-paper-mask-foloder__inner">
         <div class="p-name-card-envelope__inner l-inner-fixed">
