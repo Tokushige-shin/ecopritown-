@@ -3,7 +3,7 @@
 
 <div class="c-underTitle__box">
     <p class="c-underTitle__subText">環境・SDGsに対応した</p>
-    <h1 class="c-underTitle__title">特殊印刷・加工の脱プラ製品<</h1>
+    <h1 class="c-underTitle__title">特殊印刷・加工の脱プラ製品</h1>
     <h2 class="c-underTitle__heading c-underTitle__heading--leyout">クリアファイルに代わる紙製ファイル</h2>
 </div>
 
