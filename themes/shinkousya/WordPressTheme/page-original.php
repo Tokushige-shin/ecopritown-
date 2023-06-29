@@ -155,7 +155,7 @@ $limex = esc_url(home_url('/ecopritown/limex-sheet/'));
                             <a href="/ecopritown/yupo/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/w_yupo_01.jpg" alt="ユポ"></a>
                         </div>
                         <div class="c-card-item__content">
-                            <p class="c-card-item__title">ユポグリーンシリーズ</p>
+                            <p class="c-card-item__title">ユポグリーン&reg;シリーズ</p>
                             <p class="c-card-item__text">
                                 紙を超える耐久性を持ち、環境にやさしい高機能合成紙「ユポ」。耐久性が求められる屋内外問わず様々なシーンで活躍する紙です。
                             </p>
