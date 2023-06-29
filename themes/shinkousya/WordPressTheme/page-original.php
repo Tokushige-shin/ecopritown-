@@ -10,6 +10,7 @@ $paperMask = esc_url(home_url('/ecopritown/paper-mask-folder/'));
 $company = esc_url(home_url('/ecopritown/company-profile/'));
 $envelope = esc_url(home_url('/ecopritown/name-card-envelope/'));
 $catalog = esc_url(home_url('/ecopritown/catalog-pamphlet/'));
+$limex = esc_url(home_url('/ecopritown/limex-sheet/'));
 ?>
 
 <section class="p-original">
@@ -132,48 +133,46 @@ $catalog = esc_url(home_url('/ecopritown/catalog-pamphlet/'));
             </div>
 
             <div class="p-original__content">
-                <h2 class="p-original__title">環境・SDGs活動支援ツール</h2>
-                <p class="p-original__subText">環境問題やSDGsに取り組む企業の活動を支える会社案内、名刺、封筒などのコーポレートツールを国際的な環境保全の認証やトレンドに準拠した印刷工程で制作します。</p>
+                <h2 class="p-original__title">環境に配慮した水に強い素材</h2>
+                <p class="p-original__subText">耐久性・耐水性に優れて、さらに環境にも配慮された素材を製品をご紹介いたします。<br>紙の水に弱い部分を補うことで、様々なシーンで利用されています。</p>
 
                 <div class="c-card__items c-card__items--leyout c-card-list js-c-card-list03">
                     <div class="c-card-list__item c-card-item03">
                         <div class="c-card-item__img">
-                            <a href="/ecopritown/company-profile/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/support-picture01.jpg" alt="パンフレットに会社案内を写している画像"></a>
+                            <a href="/ecopritown/limex-sheet/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/w_limex_01.jpg" alt="LIMEX"></a>
                         </div>
                         <div class="c-card-item__content">
-                            <p class="c-card-item__title">会社案内</p>
+                            <p class="c-card-item__title">LIMEX Sheet</p>
                             <p class="c-card-item__text">
-                                会社案内は、自社の取り組みをアピールする重要なツールとなります。環境への取り組みを記載するだけでなく、環境配慮の印刷をすることで活動への説得力がアップいたします。
+                                石灰石を主原料とするLIMEX Sheet（ライメックスシート）」。プラスチックや紙の代替となる新素材です
                             </p>
-                            <a href="/ecopritown/company-profile/" class="c-btn-1 c-anima-2">詳しくはこちら　＞</a>
+                            <a href="/ecopritown/limex-sheet/" class="c-btn-1 c-anima-2">詳しくはこちら　＞</a>
                         </div>
                     </div>
 
                     <div class="c-card-list__item c-card-item03">
                         <div class="c-card-item__img">
-                            <a href="/ecopritown/name-card-envelope/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/support-picture02.jpg" alt="名刺/封筒を写している画像"></a>
+                            <a href="/ecopritown/yupo/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/w_yupo_01.jpg" alt="ユポ"></a>
                         </div>
                         <div class="c-card-item__content">
-                            <p class="c-card-item__title">名刺/封筒</p>
+                            <p class="c-card-item__title">ユポグリーンシリーズ</p>
                             <p class="c-card-item__text">
-                                名刺や封筒は、最も身近でよく使われる印刷物です。名刺にロゴを印刷することで第一印象として環境へ配慮している会社と印象付けることができます。
+                                紙を超える耐久性を持ち、環境にやさしい高機能合成紙「ユポ」。耐久性が求められる屋内外問わず様々なシーンで活躍する紙です。
                             </p>
-                            <a href="/ecopritown/name-card-envelope/" class="c-btn-1 c-anima-2">詳しくはこちら　＞</a>
+                            <a href="/ecopritown/yupo/" class="c-btn-1 c-anima-2">詳しくはこちら　＞</a>
                         </div>
                     </div>
 
                     <div class="c-card-list__item c-card-item03">
                         <div class="c-card-item__img">
-                            <a href="/ecopritown/catalog-pamphlet/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/support-picture03.jpg" alt="カタログ/パンフレットを写している画像"></a>
+                            <a href="/ecopritown/okrainguard/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/w_rainguard_01.jpg" alt="ＯＫレインガード"></a>
                         </div>
                         <div class="c-card-item__content">
-                            <p class="c-card-item__title">
-                                カタログ/パンフレット
-                            </p>
+                            <p class="c-card-item__title">OKレインガード</p>
                             <p class="c-card-item__text">
-                                カタログ・パンフレットは、人の目によくふれる販促ツールです。その中に環境対応のロゴを入れることで、会社としての活動をさりげなくアピールすることができます。
+                                屋外など水に濡れる場所でも使用できるよう開発された印刷用撥水紙「OKレインガード」。撥水紙ながら精細な多色オフセット印刷に対応しています。
                             </p>
-                            <a href="/ecopritown/catalog-pamphlet/" class="c-btn-1 c-anima-2">詳しくはこちら　＞</a>
+                            <a href="/ecopritown/okrainguard/" class="c-btn-1 c-anima-2">詳しくはこちら　＞</a>
                         </div>
                     </div>
                 </div>
