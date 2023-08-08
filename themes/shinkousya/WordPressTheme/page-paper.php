@@ -36,7 +36,7 @@
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/paper-picture02.jpg" alt="中身が見える箱型ケースを写してる画像">
                         </div>
                         <p class="c-blockPicture__text">
-                            商品が見える箱型ケース
+                            商品が見える箱型パッケージ
                         </p>
                     </div>
                 </div>
