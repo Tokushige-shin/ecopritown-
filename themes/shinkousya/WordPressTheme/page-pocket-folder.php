@@ -11,7 +11,7 @@
         <div class="c-block c-block--leyout">
             <div class="c-blockText">
                 <p class="c-blockText__text">
-                    会社案内や事業紹介などを収めるポケットフォルダは企業の顔としての役割を果たします。箔押しやエンボスなどの特殊加工をあしらうなど独自性の高いデザインによって、企業やブランドを効果的に印象づけることができます。長年ポケットフォルダの制作に携わってきた新晃社では豊富な50種類の型をご用意しています。
+                    会社案内や事業紹介などを収めるポケットフォルダは企業の顔としての役割を果たします。箔押しやエンボスなどの特殊加工をあしらうなど独自性の高いデザインによって、企業やブランドを効果的に印象づけることができます。中身を入れ替えことで様々な販促ツールとして使用することが可能です。紙製なのでクリファイルのようにプラスチック素材を使用していないため、環境負荷も軽減できます。長年ポケットフォルダの制作に携わってきた新晃社では豊富な50種類の型をご用意しています。
                 </p>
             </div>
 
@@ -22,7 +22,7 @@
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pocket-picture01.jpg" alt="家の形を再現したポケットフォルダを写している画像">
                         </div>
                         <p class="c-blockPicture__text">
-                            家の形を再現したポケットフォルダ
+                            家の形を再現した紙製ポケットフォルダ
                         </p>
                     </div>
                 </div>
@@ -33,7 +33,7 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pocket-picture02.jpg" alt="表面に疑似エンボスを施したポケットフォルダを写している画像">
                         </div>
                         <p class="c-blockPicture__text">
-                            表面に疑似エンボスを施したポケットフォルダ
+                            表面に疑似エンボスを施したポ紙製ケットフォルダ
                         </p>
                     </div>
                 </div>
@@ -44,7 +44,7 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pocket-picture03.jpg" alt="果物の輪郭を綺麗に再現した型抜きの3つ折りポケットフォルダを写している画像">
                         </div>
                         <p class="c-blockPicture__text">
-                            果物の輪郭を綺麗に再現した型抜きの3つ折りポケットフォルダ
+                            果物の輪郭を綺麗に再現した型抜きの3つ折り紙製ポケットフォルダ
                         </p>
                     </div>
                 </div>
