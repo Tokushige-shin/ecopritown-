@@ -25,29 +25,27 @@
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/paper-picture01.jpg" alt="ユニバーサルフックにも対応した紙製パッケージを写してる画像">
                         </div>
                         <p class="c-blockPicture__text">
-                            ユニバーサルフックにも対応した紙製パッケージ（フックは切り取り可能で、プレゼント包装も対応）
+                            ユニバーサルフックにも対応した紙製パッケージ：フックに引っ掛ける形式での商品陳列で誰もが目にしたことがあるのが、鉛筆やボールペンなどの文房具でしょう。豊富な種類の文具類を引っ掛けて陳列することで、店舗ディスプレイとしても目を引くことができ、お客様も自分にあった商品を選びやすくなります。（フックは切り取り可能で、プレゼント包装も対応）
                         </p>
                     </div>
                 </div>
-
                 <div class="c-block-content">
                     <div class="c-blockPicture">
                         <div class="c-blockPicture__picture">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/paper-picture02.jpg" alt="中身が見える箱型ケースを写してる画像">
                         </div>
                         <p class="c-blockPicture__text">
-                            商品が見える箱型パッケージ
+                            商品が見える箱型パッケージ：菓子類やコーヒー・紅茶、タオル類などのパッケージとしてよく使われています。中身が見えるため、商品のアピールと目につくデザインを両立できるのが、この箱の強みと言えます。そのままディスプレイすることで、店舗を華やかにもしてくれます。
                         </p>
                     </div>
                 </div>
-
                 <div class="c-block-content">
                     <div class="c-blockPicture">
                         <div class="c-blockPicture__picture">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/paper-picture03.jpg" alt="強度のしっかりとした紙箱を写している画像">
                         </div>
                         <p class="c-blockPicture__text">
-                            強度のしっかりとした紙箱
+                            強度のしっかりとした紙箱：頑丈で壊れにくく、高級感を演出できる点から、アクセサリーや腕時計といった高級品、ギフト用のお菓子類、贈答品などで活用できます。質の高い商品を包装するのにうってつけの質感を出せるのが、強度のしっかりした紙製パッケージの強みです。
                         </p>
                     </div>
                 </div>
