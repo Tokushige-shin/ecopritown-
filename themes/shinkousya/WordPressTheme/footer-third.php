@@ -13,6 +13,9 @@ $original = esc_url(home_url('/original/'));
 </footer>
 <?php wp_footer(); ?>
 <script src="https://unpkg.com/scrollreveal"></script>
+<?php if (is_page('paper-file')) : ?>
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/scroll.js"></script>
+<?php endif; ?>
 </body>
 
 </html>
