@@ -131,7 +131,53 @@ $limex = esc_url(home_url('/ecopritown/limex-sheet/'));
                     </div>
                 </div>
             </div>
+            <div class="p-original__content">
+                <h2 class="p-original__title">環境・SDGs活動支援ツール</h2>
+                <p class="p-original__subText">環境問題やSDGsに取り組む企業の活動を支える会社案内、名刺、封筒などのコーポレートツールを国際的な環境保全の認証やトレンドに準拠した印刷工程で制作します。</p>
 
+                <div class="c-card__items c-card__items--leyout c-card-list js-c-card-list03">
+                    <div class="c-card-list__item c-card-item03">
+                        <div class="c-card-item__img">
+                            <a href="/ecopritown/company-profile/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/support-picture01.jpg" alt="パンフレットに会社案内を写している画像"></a>
+                        </div>
+                        <div class="c-card-item__content">
+                            <p class="c-card-item__title">会社案内</p>
+                            <p class="c-card-item__text">
+                                会社案内は、自社の取り組みをアピールする重要なツールとなります。環境への取り組みを記載するだけでなく、環境配慮の印刷をすることで活動への説得力がアップいたします。
+                            </p>
+                            <a href="/ecopritown/company-profile/" class="c-btn-1 c-anima-2">詳しくはこちら　＞</a>
+                        </div>
+                    </div>
+
+                    <div class="c-card-list__item c-card-item03">
+                        <div class="c-card-item__img">
+                            <a href="/ecopritown/name-card-envelope/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/support-picture02.jpg" alt="名刺/封筒を写している画像"></a>
+                        </div>
+                        <div class="c-card-item__content">
+                            <p class="c-card-item__title">名刺/封筒</p>
+                            <p class="c-card-item__text">
+                                名刺や封筒は、最も身近でよく使われる印刷物です。第一印象として環境へ配慮している会社と印象付けることができます。
+                            </p>
+                            <a href="/ecopritown/name-card-envelope/" class="c-btn-1 c-anima-2">詳しくはこちら　＞</a>
+                        </div>
+                    </div>
+
+                    <div class="c-card-list__item c-card-item03">
+                        <div class="c-card-item__img">
+                            <a href="/ecopritown/catalog-pamphlet/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/support-picture03.jpg" alt="カタログ/パンフレットを写している画像"></a>
+                        </div>
+                        <div class="c-card-item__content">
+                            <p class="c-card-item__title">
+                                カタログ/パンフレット
+                            </p>
+                            <p class="c-card-item__text">
+                                カタログ・パンフレットは、人の目によくふれる販促ツールです。その中に環境対応のロゴを入れることで、会社としての活動をさりげなくアピールすることができます。
+                            </p>
+                            <a href="/ecopritown/catalog-pamphlet/" class="c-btn-1 c-anima-2">詳しくはこちら　＞</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="p-original__content">
                 <h2 class="p-original__title">環境に配慮した水に強い素材</h2>
                 <p class="p-original__subText">耐久性・耐水性に優れて、さらに環境にも配慮された素材を製品をご紹介いたします。<br>紙の水に弱い部分を補うことで、様々なシーンで利用されています。</p>
