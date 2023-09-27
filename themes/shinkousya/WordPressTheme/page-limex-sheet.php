@@ -26,11 +26,38 @@
                 </div>
             </div>
         </div>
-             <div class="p-original__content" style="margin-bottom:40px">
-                <h2 class="p-original__title">LIMEX Sheetの活用例</h2>
-                <p class="p-original__subText">クリアファイル、メニュー、パンフレット、販促POP、名刺、パッケージ、商品タグ、マップ、マスクケース、ポスター</p>
+    </div>
+</section>
+<section class="p-original">
+    <div class="p-original__inner">
+        <div class="p-original__container">
+            <div class="p-original__content">
+                <h2 class="p-original__title" style="margin-bottom: 15px">LIMEX Sheetの使用例</h2>
+                <div class="c-card__items c-card-list js-c-card-list01">
+                    <div class="c-card-list__item c-card-item01">
+                        <div class="c-card-item__img">
+                            <a href="/ecopritown/takegami-file/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/limex_case_01.png" alt="LIMEXメニュー"></a>
+                        </div>
+                        <div class="c-card-item__content">
+                            <p class="c-card-item__text">
+                             レストランメニュー
+                            </p>
+                        </div>
+                    </div>
+                    <div class="c-card-list__item c-card-item01">
+                        <div class="c-card-item__img">
+                            <a href="/ecopritown/takegami-file/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/limex_case_02.png" alt="LIMEXクリアファイル"></a>
+                        </div>
+                        <div class="c-card-item__content">
+                            <p class="c-card-item__text">
+                             クリアファイル
+                            </p>
+                        </div>
+                    </div>
                 </div>
+                <p class="p-original__subText">その他の活用方法は、パンフレット、販促POP、名刺、パッケージ、商品タグ、マップ、マスクケース、ポスター等</p>
             </div>
+        </div>
     </div>
 </section>
 
